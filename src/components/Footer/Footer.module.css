@@ -1,0 +1,84 @@
+.footer {
+  background-color: #3b3127; 
+  color: #f7f6f0; 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 60px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+.brand_col {
+  max-width: 360px;
+  flex: 2;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #f7f6f0; 
+  margin: 0;
+}
+
+.footer h3 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: none;
+  margin: 0 0 20px 0;
+  color: #f7f6f0;
+}
+
+.links_col, .contacts_col {
+  flex: 1;
+}
+
+.nav, .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer a {
+  color: #f7f6f0;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #f7f6f09a;
+}
+
+.phone, .email {
+  display: block;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+/* .separator {
+  color: #cd6f12;
+  user-select: none;
+} */

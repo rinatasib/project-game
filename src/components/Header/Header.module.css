@@ -1,0 +1,60 @@
+.header {
+    width: 100%;
+    background-color: #f7f6f0; 
+    padding: 24px 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin-bottom: 100px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Логотип */
+
+.logoLink{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logoIconBg {
+    background-color: #556b2f; 
+    width: 40px;
+    height: 40px;
+    border-radius: 8px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg {
+    width: 24px;
+    height: 24px;
+    filter: invert(194%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(200%) contrast(100%); /* Делает иконку Vite белой */
+}
+
+.logoText {
+    font-size: 22px;
+    font-weight: 700;
+    color: #3b3127; 
+}
+nav  {
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    color: #000000;
+}
+nav a:hover {
+    color: #556b2f;
+    text-decoration: underline;
+}
+
+
+
