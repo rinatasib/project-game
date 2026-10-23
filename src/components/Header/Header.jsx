@@ -8,7 +8,7 @@ export function Header() {
 
                     <a href="/" className={s.logoLink}>
                         <img
-                            src="src/assets/logo.png" alt="" className={s.logoImage}/>
+                            src="../../assets/logo.png" alt="" className={s.logoImage}/>
                         <span className={s.logoText}>Ход за ходом</span>
                     </a>
 
