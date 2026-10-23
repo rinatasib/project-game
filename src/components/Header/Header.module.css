@@ -16,7 +16,7 @@
     padding: 0 20px;
 }
 
-/* Логотип */
+
 
 .logoLink{
     display: flex;
@@ -36,7 +36,6 @@
 .logoImg {
     width: 24px;
     height: 24px;
-    filter: invert(194%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(200%) contrast(100%); /* Делает иконку Vite белой */
 }
 
 .logoText {
